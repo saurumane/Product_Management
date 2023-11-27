@@ -1,0 +1,16 @@
+#this file contains the json code for the step function and the policy for direct execution so, make sure to
+replace same with your code and arn number.
+
+policy for automate execution of step function:
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": "states:StartExecution",
+            "Resource": "arn:aws:states:ap-south-1:665842648785:stateMachine:MyStateMachine-4z834p9xf"
+        }
+    ]
+}
+Below is the json code for the step function:
+
